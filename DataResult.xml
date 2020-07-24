@@ -1,0 +1,2536 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<itdRequest calcTime="1179.312" client="Java/1.8.0_201" clientIP="127.0.0.1" language="de" lengthUnit="METER" now="2020-07-24T19:47:55" nowWD="6" serverID="bw-ww32" sessionID="bw-ww321827965843" version="10.3.12.4" virtDir="nvbw">
+    <itdVersionInfo>
+        <ptKernel>
+            <appVersion>10.3.12.1 build 22.07.2020 01:11:05</appVersion>
+            <dataFormat>EFA10_03_00</dataFormat>
+            <dataBuild>2020-07-23T02:02:08</dataBuild>
+        </ptKernel>
+    </itdVersionInfo>
+    <itdLayoutParams>
+        <itdLayoutParam name="id_destination" value=":destination"/>
+    </itdLayoutParams>
+    <itdInfoLinkList>
+        <itdBannerInfoList>
+            <infoLink>
+                <paramList>
+                    <param edit="0">
+                        <type>outputOption</type>
+                        <name>bannerType</name>
+                        <value>StaticHintsAndTips</value>
+                    </param>
+                    <param edit="0">
+                        <type>outputOption</type>
+                        <name>outputArea1</name>
+                        <value>1</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>infoID</name>
+                        <value>23355_ICSNVBW</value>
+                    </param>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>position</name>
+                        <value>1</value>
+                    </param>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>priority</name>
+                        <value>veryHigh</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>providerCode</name>
+                        <value>Donau-Iller-Nahverkehrsverbund (DING)</value>
+                    </param>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>infoType</name>
+                        <value>bannerInfo</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>seqID</name>
+                        <value>15</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>sourceSystemID</name>
+                        <value>ICSNVBW</value>
+                    </param>
+                </paramList>
+                <infoLinkText>DING: Einschränkungen wegen Coronavirus</infoLinkText>
+                <infoLinkURL>http://ics.efa-bw.de:80/cm/XSLT_CM_SHOWADDINFO_REQUEST?infoID=23355_ICSNVBW&amp;seqID=15</infoLinkURL>
+                <infoLinkImage/>
+                <infoText>
+                    <content>&lt;br /&gt;Im Zusammenhang mit Ausbreitung des Coronavirus und dem ver&amp;auml;nderten Ablauf des &amp;ouml;ffentlichen Lebens kommt es aktuell zu Einschr&amp;auml;nkungen im gesamten DING-Gebiet.&lt;br /&gt;&lt;br /&gt;Die &lt;span style="text-decoration: underline;"&gt;stets aktuellen Informationen&lt;/span&gt; zur Corona-Krise finden Sie auf unserer &lt;a href="https://www.ding.eu/de/aktuelles/homepage-themen/corona-krise/" target="_blank"&gt;&lt;strong&gt;speziellen Seite&lt;/strong&gt;&lt;/a&gt;.&lt;strong&gt;&lt;a href="https://www.ding.eu/de/aktuelles/homepage-themen/corona-krise-fahrplan-infos/" target="_blank"&gt; &lt;br /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;Wir w&amp;uuml;nschen Ihnen trotz allem gute Fahrt und bleiben Sie gesund!&lt;br /&gt;&lt;br /&gt;Ihr DING-Team.&lt;br /&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;</content>
+                    <subtitle>DING: Einschränkungen wegen Coronavirus</subtitle>
+                    <subject>DING: Einschränkungen wegen Coronavirus</subject>
+                    <additionalText/>
+                    <image/>
+                    <outputClientText>
+                        <htmlText/>
+                        <wmlText/>
+                        <smsText/>
+                        <speechText/>
+                    </outputClientText>
+                </infoText>
+            </infoLink>
+            <infoLink>
+                <paramList>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>priority</name>
+                        <value>low</value>
+                    </param>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>infoType</name>
+                        <value>bannerInfo</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>providerCode</name>
+                        <value>Allgemeine Meldungen (NVBW)</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>infoID</name>
+                        <value>13408_ICSNVBW</value>
+                    </param>
+                    <param edit="0">
+                        <type>outputOption</type>
+                        <name>outputArea1</name>
+                        <value>1</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>seqID</name>
+                        <value>2</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>sourceSystemID</name>
+                        <value>ICSNVBW</value>
+                    </param>
+                </paramList>
+                <infoLinkText>Amtliche Wetterwarnungen für Baden-Württemberg</infoLinkText>
+                <infoLinkURL>http://ics.efa-bw.de:80/cm/XSLT_CM_SHOWADDINFO_REQUEST?infoID=13408_ICSNVBW&amp;seqID=2</infoLinkURL>
+                <infoLinkImage/>
+                <infoText>
+                    <content>&lt;p&gt;Die Wetter-Meldungen werden vom Deutschen Wetterdienst zur Verf&amp;uuml;gung gestellt&lt;/p&gt;</content>
+                    <subtitle>Amtliche Wetterwarnungen für Baden-Württemberg</subtitle>
+                    <subject>Amtliche Wetterwarnungen für Baden-Württemberg</subject>
+                    <additionalText/>
+                    <image/>
+                    <outputClientText>
+                        <htmlText/>
+                        <wmlText/>
+                        <smsText/>
+                        <speechText/>
+                    </outputClientText>
+                    <additionalLinks>
+                        <additionalLink ID="2">
+                            <linkURL>http://www.wettergefahren.de/warnungen/warnsituation/warnlagebericht/baden_wuerttemberg.html</linkURL>
+                            <linkText>Aktuelle Wetter-Warnmeldungen vom Deutschen Wetterdienst</linkText>
+                            <linkTextShort>Aktuelle Wetter-Warnmeldungen vom Deutschen Wetterdienst</linkTextShort>
+                            <linkTarget>_blank</linkTarget>
+                        </additionalLink>
+                    </additionalLinks>
+                </infoText>
+            </infoLink>
+            <infoLink>
+                <paramList>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>priority</name>
+                        <value>high</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>providerCode</name>
+                        <value>Donau-Iller-Nahverkehrsverbund (DING)</value>
+                    </param>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>infoType</name>
+                        <value>bannerInfo</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>infoID</name>
+                        <value>23537_ICSNVBW</value>
+                    </param>
+                    <param edit="0">
+                        <type>outputOption</type>
+                        <name>outputArea1</name>
+                        <value>1</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>seqID</name>
+                        <value>10</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>sourceSystemID</name>
+                        <value>ICSNVBW</value>
+                    </param>
+                </paramList>
+                <infoLinkText>DING: Aktuelle Infos zu Fahrplanänderungen</infoLinkText>
+                <infoLinkURL>http://ics.efa-bw.de:80/cm/XSLT_CM_SHOWADDINFO_REQUEST?infoID=23537_ICSNVBW&amp;seqID=10</infoLinkURL>
+                <infoLinkImage/>
+                <infoText>
+                    <content>&lt;strong&gt;&lt;/strong&gt;&lt;br /&gt;Bauma&amp;szlig;nahmen oder Gro&amp;szlig;veranstaltungen k&amp;ouml;nnen zu Abweichungen von den gewohnten Fahrtzeiten f&amp;uuml;hren. &lt;br /&gt;&lt;br /&gt;Alle aktuellen &amp;Auml;nderungsmeldungen &amp;ndash; soweit DING bekannt -&amp;nbsp; finden Sie auf der speziellen Seite unter:&lt;br /&gt;&lt;strong&gt;&lt;a href="https://www.ding.eu/de/aktuelles/infos-zu-fahrplanaenderungen/" target="_blank"&gt;https://www.ding.eu/de/aktuelles/infos-zu-fahrplanaenderungen/&lt;/a&gt;&amp;nbsp;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/strong&gt;</content>
+                    <subtitle>DING: Aktuelle Infos zu Fahrplanänderungen</subtitle>
+                    <subject>DING: Aktuelle Infos zu Fahrplanänderungen</subject>
+                    <additionalText/>
+                    <image/>
+                    <outputClientText>
+                        <htmlText/>
+                        <wmlText/>
+                        <smsText/>
+                        <speechText/>
+                    </outputClientText>
+                </infoText>
+            </infoLink>
+            <infoLink>
+                <paramList>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>priority</name>
+                        <value>normal</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>providerCode</name>
+                        <value>Allgemeine Meldungen (NVBW)</value>
+                    </param>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>infoType</name>
+                        <value>bannerInfo</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>infoID</name>
+                        <value>17169_ICSNVBW</value>
+                    </param>
+                    <param edit="0">
+                        <type>outputOption</type>
+                        <name>outputArea1</name>
+                        <value>1</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>seqID</name>
+                        <value>3</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>sourceSystemID</name>
+                        <value>ICSNVBW</value>
+                    </param>
+                </paramList>
+                <infoLinkText>Aktuelle Verkehrsmeldungen in Baden-Württemberg</infoLinkText>
+                <infoLinkURL>http://ics.efa-bw.de:80/cm/XSLT_CM_SHOWADDINFO_REQUEST?infoID=17169_ICSNVBW&amp;seqID=3</infoLinkURL>
+                <infoLinkImage/>
+                <infoText>
+                    <content>Aktuelle Verkehrslage auf den Stra&amp;szlig;en von Baden-W&amp;uuml;rttemberg (zur Verf&amp;uuml;gung gestellt von der Stra&amp;szlig;enverkehrszentrale Baden-W&amp;uuml;rttemberg)&lt;br /&gt;&lt;br /&gt;&lt;a title="aktuelle Verkehrslage" href="https://verkehrsinfo-bw.de/" target="_blank"&gt;aktuelle Verkehrslage&lt;/a&gt;</content>
+                    <subtitle>Aktuelle Verkehrsmeldungen in Baden-Württemberg</subtitle>
+                    <subject>Aktuelle Verkehrsmeldungen in Baden-Württemberg</subject>
+                    <additionalText/>
+                    <image/>
+                    <outputClientText>
+                        <htmlText/>
+                        <wmlText/>
+                        <smsText/>
+                        <speechText/>
+                    </outputClientText>
+                </infoText>
+            </infoLink>
+            <infoLink>
+                <paramList>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>priority</name>
+                        <value>normal</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>providerCode</name>
+                        <value>Verkehrsgesellschaft Mecklenburg-Vorpommern mbH (VMV)</value>
+                    </param>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>infoType</name>
+                        <value>bannerInfo</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>infoID</name>
+                        <value>23693_ICSNVBW</value>
+                    </param>
+                    <param edit="0">
+                        <type>outputOption</type>
+                        <name>outputArea1</name>
+                        <value>1</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>seqID</name>
+                        <value>1</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>sourceSystemID</name>
+                        <value>ICSNVBW</value>
+                    </param>
+                </paramList>
+                <infoLinkText>Mund-Nasen-Bedeckungs-Pflicht ab 27.04.2020 in Bus &amp; Bahn</infoLinkText>
+                <infoLinkURL>http://ics.efa-bw.de:80/cm/XSLT_CM_SHOWADDINFO_REQUEST?infoID=23693_ICSNVBW&amp;seqID=1</infoLinkURL>
+                <infoLinkImage/>
+                <infoText>
+                    <content>Sch&amp;uuml;tzen Sie sich und andere durch das Tragen einer Alltagsmaske, eines Schals oder eines Tuches.&lt;br /&gt;&lt;br /&gt;Ausgenommen sind Kinder bis zum Schuleintritt und Menschen, die wegen einer Behinderung keine Mund-Nasen-Bedeckung tragen k&amp;ouml;nnen.&lt;br /&gt;&lt;br /&gt;Fahren Sie besser mit Schutz!&lt;br /&gt;&lt;br /&gt;Ihre VMV - Verkehrsgesellschaft Mecklenburg-Vorpommern mbH</content>
+                    <subtitle>Mund-Nasen-Bedeckungs-Pflicht ab 27.04.2020 in Bus &amp; Bahn</subtitle>
+                    <subject/>
+                    <additionalText/>
+                    <image/>
+                    <outputClientText>
+                        <htmlText/>
+                        <wmlText/>
+                        <smsText/>
+                        <speechText/>
+                    </outputClientText>
+                </infoText>
+            </infoLink>
+            <infoLink>
+                <paramList>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>priority</name>
+                        <value>veryHigh</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>providerCode</name>
+                        <value>Allgemeine Meldungen (NVBW)</value>
+                    </param>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>infoType</name>
+                        <value>bannerInfo</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>infoID</name>
+                        <value>22721_ICSNVBW</value>
+                    </param>
+                    <param edit="0">
+                        <type>outputOption</type>
+                        <name>outputArea1</name>
+                        <value>1</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>seqID</name>
+                        <value>8</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>sourceSystemID</name>
+                        <value>ICSNVBW</value>
+                    </param>
+                </paramList>
+                <infoLinkText>Fahrplanauskunft bis zum 12. Dezember 2020</infoLinkText>
+                <infoLinkURL>http://ics.efa-bw.de:80/cm/XSLT_CM_SHOWADDINFO_REQUEST?infoID=22721_ICSNVBW&amp;seqID=8</infoLinkURL>
+                <infoLinkImage/>
+                <infoText>
+                    <content>Die Fahrplandaten werden von Verkehrsverb&amp;uuml;nden, einzelnen Verkehrsunternehmen, Landrats&amp;auml;mter, den deutschen Bundesl&amp;auml;ndern (im Rahmen der DELFI-Zusammenarbeit) sowie der Deutschen Bahn AG zur Verf&amp;uuml;gung gestellt. Sie werden - sobald sie verf&amp;uuml;gbar sind - in die Fahrplanauskunft EFA-BW eingearbeitet.&lt;br /&gt;Die Fahrplandaten aus Luxemburg werden von der "Platte-forme de donn&amp;eacute;es Luxembourgeoise" zur Verf&amp;uuml;gung gestellt (&lt;a href="https://data.public.lu"&gt;https://data.public.lu&lt;/a&gt;)&lt;br /&gt;Die Fahrplandaten aus Frankreich werden vom "centre d&amp;rsquo;&amp;eacute;tudes et d&amp;rsquo;expertise sur les risques, l&amp;rsquo;environnement, la mobilit&amp;eacute; et l&amp;rsquo;am&amp;eacute;nagement" zur Verf&amp;uuml;gung gestellt (http://www.passim.info)&lt;br /&gt;&lt;br /&gt;--------------------------&lt;br /&gt;&lt;br /&gt;ACHTUNG:&lt;br /&gt;Wegen der "Corona-Krise" wird seit M&amp;auml;rz 2020 in vielen Teilen des Landes nach einem ausged&amp;uuml;nnten Sonder-Fahrplan gefahren. Im Zuge der Lockerung der "Corona-Verordnungen" wird im Laufe der kommenden Wochen das Fahrtangebot nach und nach wieder dem eigentlichen Soll-Fahrplan angepasst.&lt;br /&gt;Sobald die Daten zur Verf&amp;uuml;gung stehen, werden Sie in EFA-BW eingepflegt.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;--------------------------&lt;br /&gt;&lt;br /&gt;Bitte beachten Sie:&lt;br /&gt;EFA-BW berechnet grunds&amp;auml;tzlich den schnellsten Weg! Wenn Sie eine andere Berechnung haben wollen (beispielsweise "nur mit Bus" oder umstiegsfreie Fahrten, auch wenn sie l&amp;auml;nger dauern), k&amp;ouml;nnen Sie dies durch Anw&amp;auml;hlen der "Erweiterten Eingabe", und dort unter "Weitere Optionen" einstellen.&lt;br /&gt;&lt;br /&gt;Bitte beachten Sie, dass es auch unterj&amp;auml;hrig zu Fahrplan&amp;auml;nderungen kommen kann!</content>
+                    <subtitle>Fahrplanauskunft bis zum 12. Dezember 2020</subtitle>
+                    <subject/>
+                    <additionalText/>
+                    <image/>
+                    <outputClientText>
+                        <htmlText/>
+                        <wmlText/>
+                        <smsText/>
+                        <speechText/>
+                    </outputClientText>
+                </infoText>
+            </infoLink>
+            <infoLink>
+                <paramList>
+                    <param edit="0">
+                        <type>outputOption</type>
+                        <name>bannerType</name>
+                        <value>StaticHintsAndTips</value>
+                    </param>
+                    <param edit="0">
+                        <type>outputOption</type>
+                        <name>outputArea1</name>
+                        <value>1</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>infoID</name>
+                        <value>23359_ICSNVBW</value>
+                    </param>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>priority</name>
+                        <value>normal</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>providerCode</name>
+                        <value>Bodensee-Oberschwaben-Verkehrsverbundgesellschaft mbH (bodo)</value>
+                    </param>
+                    <param edit="0">
+                        <type>addInfoParam</type>
+                        <name>infoType</name>
+                        <value>bannerInfo</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>seqID</name>
+                        <value>1</value>
+                    </param>
+                    <param edit="0">
+                        <type>system</type>
+                        <name>sourceSystemID</name>
+                        <value>ICSNVBW</value>
+                    </param>
+                </paramList>
+                <infoLinkText>Friedrichshafen: Abendlinien A1-A16 werden aufgrund der Corona-Pandemie ab 23. März 2020 bis auf Weiteres eingestellt</infoLinkText>
+                <infoLinkURL>http://ics.efa-bw.de:80/cm/XSLT_CM_SHOWADDINFO_REQUEST?infoID=23359_ICSNVBW&amp;seqID=1</infoLinkURL>
+                <infoLinkImage/>
+                <infoText>
+                    <content>&lt;p&gt;&lt;strong&gt;Corona: Abendlinien ab 23.3. eingestellt&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Aufgrund der Corona-Pandemie und den damit verbundenen Einschr&amp;auml;nkungen stellt der Stadtverkehr Friedrichshafen &lt;strong&gt;ab Montag, 23. M&amp;auml;rz bis auf Weiteres s&amp;auml;mtliche Abendlinien ein.&lt;/strong&gt; &lt;strong&gt;Damit entfallen die t&amp;auml;glichen Busfahrten zwischen 20 Uhr und 24 Uhr.&lt;/strong&gt; &lt;br /&gt; &lt;br /&gt; Das Ruftaxi im Abendverkehr (RiA) verkehrt wie gewohnt zwischen 20.15 Uhr und 0.25 Uhr &amp;ndash; an Wochenenden bis 3.25 Uhr. RiA muss unter 07541 25025 telefonisch mindestens 30 Minuten vor der Fahrt vorbestellt werden.&lt;/p&gt;
+&lt;p&gt;Die Tageslinien des Stadtverkehrs fahren ab Montag nach dem Ferien-Fahrplan. Die im Fahrplan gekennzeichneten Schulfahrten entfallen.&lt;br /&gt; &lt;br /&gt; Wir bitten um Beachtung!&lt;/p&gt;</content>
+                    <subtitle>Friedrichshafen: Abendlinien A1-A16 werden aufgrund der Corona-Pandemie ab 23. März 2020 bis auf Weiteres eingestellt</subtitle>
+                    <subject>Abendlinien A1-A16 werden aufgrund der Corona-Pandemie ab 23. März 2020 bis auf Weiteres eingestellt</subject>
+                    <additionalText/>
+                    <image/>
+                    <outputClientText>
+                        <htmlText/>
+                        <wmlText/>
+                        <smsText/>
+                        <speechText/>
+                    </outputClientText>
+                </infoText>
+            </infoLink>
+        </itdBannerInfoList>
+    </itdInfoLinkList>
+    <itdTripRequest requestID="1">
+        <itdMessage code="-10015" module="BROKER" subType="itp-monomodal" type="warning">itp</itdMessage>
+        <itdPrintConfiguration active="-1" commuterFaresOutput="0" fareUnitOrientation="left" fontSizeNormal="1" layout="" outputFormat="pdf" printerDirect="0" serverAddress="" serverInfo="" shading="1"/>
+        <itdAddress addressExt1="" addressExt2="" name="" place="" street=""/>
+        <itdOdv anyObjFilter="0" type="any" usage="origin">
+            <itdOdvPlace method="itp" state="identified">
+                <odvPlaceElem mainPlace="1" omc="8317065" placeID="4" span="9" stateless="placeID:8317065:4" type="local" value="8317065:4">Lahr (Schwarzwald)</odvPlaceElem>
+                <odvPlaceInput/>
+            </itdOdvPlace>
+            <itdOdvName method="itp" state="identified">
+                <itdMessage code="-8010" module="BROKER" type="error"/>
+                <odvNameElem anyType="stop" anyTypeSort="2" buildingName="" buildingNumber="" gid="de:08317:12103" id="7412103" locality="Lahr (Schwarzwald)" mainLocality="Lahr (Schwarzwald)" mapName="NBWT" matchQuality="978" nameKey="" objectName="Bahnhof/ZOB" omc="8317065" placeID="4" postCode="" selected="1" stateless="7412103:$EF" streetName="" x="3413764.00547" y="803488.74225">Lahr (Schwarzwald), Bahnhof/ZOB</odvNameElem>
+                <odvNameInput>Lahr Bahnhof/ZOB</odvNameInput>
+            </itdOdvName>
+            <itdOdvAssignedStops select="0">
+                <itdOdvAssignedStop distanceTime="0" gid="de:08317:12103" isTransferStop="0" mapName="NBWT" nameWithPlace="Lahr Bahnhof/ZOB" place="Lahr (Schwarzwald)" stopID="7412103" value="7412103:Bahnhof/ZOB" vm="100" x="3413764.00547" y="803488.74225">Bahnhof/ZOB</itdOdvAssignedStop>
+                <itdOdvAssignedStop distanceTime="0" gid="de:08317:12103:V" isTransferStop="0" mapName="NBWT" nameWithPlace="Lahr Bahnhof &quot;Vis-à-Vis Bus&quot;" place="Lahr (Schwarzwald)" stopID="7451021" value="7451021:Bahnhof &quot;Vis-à-Vis Bus&quot;" vm="100" x="3413753.79480" y="803503.19765">Bahnhof "Vis-à-Vis Bus"</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="320" distanceTime="4" gid="de:08317:12102:V" isTransferStop="0" mapName="NBWT" nameWithPlace="Lahr Leopoldstraße &quot;Vis-à-Vis Bus&quot;" place="Lahr (Schwarzwald)" stopID="7451020" value="7451020:Leopoldstraße &quot;Vis-à-Vis Bus&quot;" vm="100" x="3414048.68170" y="803647.79425">Leopoldstraße "Vis-à-Vis Bus"</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="335" distanceTime="5" gid="de:08317:12102" isTransferStop="0" mapName="NBWT" nameWithPlace="Lahr Leopoldstraße" place="Lahr (Schwarzwald)" stopID="7412102" value="7412102:Leopoldstraße" vm="100" x="3414053.31322" y="803649.85668">Leopoldstraße</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="464" distanceTime="7" gid="de:08317:12109" isTransferStop="0" mapName="NBWT" nameWithPlace="Lahr Römerstraße" place="Lahr (Schwarzwald)" stopID="7412109" value="7412109:Römerstraße" vm="100" x="3413629.84961" y="803944.95698">Römerstraße</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="689" distanceTime="10" gid="de:08317:12115" isTransferStop="0" mapName="NBWT" nameWithPlace="Lahr Linde" place="Lahr (Schwarzwald)" stopID="7412115" value="7412115:Linde" vm="100" x="3414351.66994" y="803255.90143">Linde</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="756" distanceTime="11" gid="de:08317:12104" isTransferStop="0" mapName="NBWT" nameWithPlace="Lahr West" place="Lahr (Schwarzwald)" stopID="7412104" value="7412104:Lahr West" vm="100" x="3413613.20584" y="803024.25166">Lahr West</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="761" distanceTime="11" gid="de:08317:12104:V" isTransferStop="0" mapName="NBWT" nameWithPlace="Lahr West &quot;Vis-à-Vis Bus&quot;" place="Lahr (Schwarzwald)" stopID="7451022" value="7451022:Lahr West &quot;Vis-à-Vis Bus&quot;" vm="100" x="3413608.55480" y="803023.51688">Lahr West "Vis-à-Vis Bus"</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="771" distanceTime="11" gid="de:08317:12105" isTransferStop="0" mapName="NBWT" nameWithPlace="Lahr Zeppelinstraße" place="Lahr (Schwarzwald)" stopID="7412105" value="7412105:Zeppelinstraße" vm="100" x="3413669.48244" y="802958.70212">Zeppelinstraße</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="781" distanceTime="11" gid="de:08317:12101:V" isTransferStop="0" mapName="NBWT" nameWithPlace="Lahr Kanadaring &quot;Vis-à-Vis Bus&quot;" place="Lahr (Schwarzwald)" stopID="7451019" value="7451019:Kanadaring &quot;Vis-à-Vis Bus&quot;" vm="100" x="3414507.31093" y="803668.65938">Kanadaring "Vis-à-Vis Bus"</itdOdvAssignedStop>
+            </itdOdvAssignedStops>
+        </itdOdv>
+        <itdOdv anyObjFilter="0" type="any" usage="destination">
+            <itdOdvPlace method="itp" state="identified">
+                <odvPlaceElem mainPlace="1" omc="8317096" placeID="8" span="9" stateless="placeID:8317096:8" type="local" value="8317096:8">Offenburg</odvPlaceElem>
+                <odvPlaceInput/>
+            </itdOdvPlace>
+            <itdOdvName method="itp" state="identified">
+                <itdMessage code="-8010" module="BROKER" type="error"/>
+                <odvNameElem anyType="stop" anyTypeSort="2" buildingName="" buildingNumber="" gid="de:08317:14506" id="7414506" locality="Offenburg" mainLocality="Offenburg" mapName="NBWT" matchQuality="1000" nameKey="" objectName="Bahnhof" omc="8317096" placeID="8" postCode="" selected="1" stateless="7414506:$EF" streetName="" x="3422191.18233" y="788505.25937">Offenburg, Bahnhof</odvNameElem>
+                <odvNameInput>Offenburg Bahnhof</odvNameInput>
+            </itdOdvName>
+            <itdOdvAssignedStops select="0">
+                <itdOdvAssignedStop distanceTime="0" gid="de:08317:14506" isTransferStop="0" mapName="NBWT" nameWithPlace="Offenburg Bahnhof" place="Offenburg" stopID="7414506" value="7414506:Offenburg Bahnhof" vm="100" x="3422191.18233" y="788505.25937">Offenburg Bahnhof</itdOdvAssignedStop>
+                <itdOdvAssignedStop distanceTime="0" gid="de:08317:14500" isTransferStop="0" mapName="NBWT" nameWithPlace="Offenburg Bahnhof / ZOB" place="Offenburg" stopID="7414500" value="7414500:Offenburg Bahnhof / ZOB" vm="100" x="3422077.55199" y="788604.36935">Offenburg Bahnhof / ZOB</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="199" distanceTime="3" gid="de:08317:2703" isTransferStop="0" mapName="NBWT" nameWithPlace="Offenburg Bahnhof Ost" place="Offenburg" stopID="7402703" value="7402703:Bahnhof Ost" vm="100" x="3422250.13756" y="788565.67990">Bahnhof Ost</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="217" distanceTime="3" gid="de:08317:2709" isTransferStop="0" mapName="NBWT" nameWithPlace="OG Carl-Blos-Str./Bahnhof Ost" place="Offenburg" stopID="7402709" value="7402709:Carl-Blos-Str./Bahnhof Ost" vm="100" x="3422278.99680" y="788640.92072">Carl-Blos-Str./Bahnhof Ost</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="382" distanceTime="6" gid="de:08317:14434" isTransferStop="0" mapName="NBWT" nameWithPlace="Offenburg Zeller/FriedrichStr" place="Offenburg" stopID="7414434" value="7414434:Zeller Straße/Friedrichstraße" vm="100" x="3422225.83338" y="788787.23166">Zeller Straße/Friedrichstraße</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="411" distanceTime="6" gid="de:08317:2702" isTransferStop="0" mapName="NBWT" nameWithPlace="Offenburg Stadtkirche" place="Offenburg" stopID="7402702" value="7402702:Stadtkirche" vm="100" x="3421964.57967" y="788896.23524">Stadtkirche</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="413" distanceTime="6" gid="de:08317:17021" isTransferStop="0" mapName="NBWT" nameWithPlace="Offenburg Josef-Kohler-Platz" place="Offenburg" stopID="7417021" value="7417021:Josef-Kohler-Platz" vm="100" x="3422459.99678" y="788230.78163">Josef-Kohler-Platz</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="435" distanceTime="6" gid="de:08317:17004" isTransferStop="0" mapName="NBWT" nameWithPlace="Offenburg Straßburger Straße" place="Offenburg" stopID="7417004" value="7417004:Straßburger Straße" vm="100" x="3421827.31922" y="788204.85091">Straßburger Straße</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="464" distanceTime="7" gid="de:08317:17007" isTransferStop="0" mapName="NBWT" nameWithPlace="Offenburg Güterstraße" place="Offenburg" stopID="7417007" value="7417007:Güterstraße" vm="100" x="3422142.20358" y="788009.84884">Güterstraße</itdOdvAssignedStop>
+                <itdOdvAssignedStop distance="534" distanceTime="8" gid="de:08317:2705" isTransferStop="0" mapName="NBWT" nameWithPlace="Offenburg Gustav-Ree-Anlage" place="Offenburg" stopID="7402705" value="7402705:Gustav-Ree-Anlage" vm="100" x="3421995.25606" y="788984.09229">Gustav-Ree-Anlage</itdOdvAssignedStop>
+            </itdOdvAssignedStops>
+        </itdOdv>
+        <itdOdv anyObjFilter="0" type="any" usage="via">
+            <itdOdvPlace state="empty">
+                <odvPlaceElem/>
+            </itdOdvPlace>
+            <itdOdvName state="empty">
+                <odvNameElem/>
+            </itdOdvName>
+        </itdOdv>
+        <itdOdv anyObjFilter="0" type="unknown" usage="notVia">
+            <itdOdvPlace state="empty">
+                <odvPlaceElem/>
+            </itdOdvPlace>
+            <itdOdvName state="empty">
+                <odvNameElem/>
+            </itdOdvName>
+        </itdOdv>
+        <itdAddOdvSeq/>
+        <itdTripDateTime deparr="dep" ttpFrom="20200502" ttpTo="20201212">
+            <itdDateTime ttpFrom="20200502" ttpTo="20201212">
+                <itdDate day="24" month="7" weekday="6" year="2020"/>
+                <itdTime hour="19" minute="25"/>
+            </itdDateTime>
+            <itdDateRange>
+                <itdDate day="24" month="07" weekday="6" year="2020"/>
+                <itdDate day="25" month="07" weekday="7" year="2020"/>
+                <itdDate day="26" month="07" weekday="1" year="2020"/>
+                <itdDate day="27" month="07" weekday="2" year="2020"/>
+                <itdDate day="28" month="07" weekday="3" year="2020"/>
+                <itdDate day="29" month="07" weekday="4" year="2020"/>
+                <itdDate day="30" month="07" weekday="5" year="2020"/>
+                <itdDate day="31" month="07" weekday="6" year="2020"/>
+                <itdDate day="01" month="08" weekday="7" year="2020"/>
+                <itdDate day="02" month="08" weekday="1" year="2020"/>
+                <itdDate day="03" month="08" weekday="2" year="2020"/>
+                <itdDate day="04" month="08" weekday="3" year="2020"/>
+                <itdDate day="05" month="08" weekday="4" year="2020"/>
+                <itdDate day="06" month="08" weekday="5" year="2020"/>
+                <itdDate day="07" month="08" weekday="6" year="2020"/>
+            </itdDateRange>
+        </itdTripDateTime>
+        <itdTripOptions userDefined="0">
+            <itdPtOptions SOSAvail="0" active="1" activeCom="-1" activeImp="-1" activeSec="-1" assistance="0" bike="0" changeSpeed="normal" illumTransfer="0" level="unknown" lineRestriction="400" lowPlatformVhcl="0" maxChanges="9" maxTime="360" maxWait="120" needElevatedPlt="0" noCrowded="0" noElevators="0" noEscalators="0" noInsecurePlaces="0" noLonelyTransfer="0" noSolidStairs="0" overgroundTransfer="0" plane="0" privateTransport="0" routeType="LEASTTIME" twoSidedAlt="1" useProxFootSearch="1" useProxFootSearchDestination="1" useProxFootSearchOrigin="1" wheelchair="0">
+                <excludedMeans>
+                    <meansElem selected="0" value="0">Zug</meansElem>
+                    <meansElem selected="0" value="1">S-Bahn</meansElem>
+                    <meansElem selected="0" value="2">U-Bahn</meansElem>
+                    <meansElem selected="0" value="3">Stadtbahn</meansElem>
+                    <meansElem selected="0" value="4">Straßen-/Trambahn</meansElem>
+                    <meansElem selected="0" value="5">Stadtbus</meansElem>
+                    <meansElem selected="0" value="6">Regionalbus</meansElem>
+                    <meansElem selected="0" value="7">Schnellbus</meansElem>
+                    <meansElem selected="0" value="8">Seil-/Zahnradbahn</meansElem>
+                    <meansElem selected="0" value="9">Schiff</meansElem>
+                    <meansElem selected="0" value="10">AST/Rufbus</meansElem>
+                    <meansElem selected="0" value="11">Sonstige</meansElem>
+                    <meansElem selected="1" value="12">Flugzeug</meansElem>
+                    <meansElem selected="0" value="13">Zug (Nahverkehr)</meansElem>
+                    <meansElem selected="0" value="14">Zug (Fernverkehr)</meansElem>
+                    <meansElem selected="0" value="15">Zug Fernv m Zuschlag</meansElem>
+                    <meansElem selected="0" value="16">Zug Fernv m spez Fpr</meansElem>
+                    <meansElem selected="1" value="17">SEV Schienenersatzv</meansElem>
+                    <meansElem selected="1" value="18">Zug Shuttle</meansElem>
+                    <meansElem selected="1" value="19">Bürgerbus</meansElem>
+                </excludedMeans>
+                <specialTickets/>
+            </itdPtOptions>
+            <itdItOptions active="1">
+                <itRouter logASCII="false" logSVG="false"/>
+                <itPedestrian computationType="PT_AND_IT" computeAlternativeRoutes="false" computeMonomodalTrip="false" costFactor="0" distanceFactor="50" ignoreRestrictions="false" itIncidentData="false" level="connection" maxLength="2147483647" maxTime="120" minLength="0" minTime="0" noBridge="false" noFerry="false" noTunnel="false" prefBench="0" prefIllum="0" prefToilet="0" speedFactor="100" traveltimeFactor="50" useElevation="false" useGeoRefs="0" useHdcAcc="0"/>
+                <itBicycle computationType="PT_AND_IT" computeAlternativeRoutes="false" computeMonomodalTrip="false" costFactor="0" cycleSpeed="20" distanceFactor="50" elevFac="50" ignoreRestrictions="false" inclEnvLeisureRoutes="false" inclEnvTrafficDensity="true" inclSurfQualCarry="false" inclSurfQualForrest="false" inclSurfQualGravel="false" inclSurfQualSingleTrial="false" itIncidentData="false" level="unknown" maxLength="2147483647" maxTime="60" minLength="0" minTime="0" noBridge="false" noFerry="false" noTunnel="false" prefHikePath="false" prefPedestrianSeperated="false" preferAsphaltTracks="false" preferGreenTracks="false" speedFactor="100" traveltimeFactor="50" useDrawClasses="false" useElevation="false" useEnv="false" useLayoutDirections="false" useLayoutStructural="false" useNetClasses="false" usePseudoRouting="true" useRecommRoute="false" useSignedRoute="false" useSurfQuality="false"/>
+                <mitCar computationType="PT_AND_IT" computeAlternativeRoutes="false" computeMonomodalTrip="false" costFactor="0" distanceFactor="10" ignoreRestrictions="false" itIncidentData="false" level="unknown" maxLength="2147483647" maxTime="120" minLength="0" minTime="0" mitIncidentData="false" mitOnlineData="false" mitProfileData="false" noBridge="false" noFerry="false" noHighway="false" noTollRoad="false" noTunnel="false" prefSerSt="false" speedFactor="100" traveltimeFactor="90" useElevation="false"/>
+                <mitTaxi computationType="PT_AND_IT" computeAlternativeRoutes="false" computeMonomodalTrip="false" costFactor="0" distanceFactor="10" ignoreRestrictions="false" itIncidentData="false" level="unknown" maxLength="2147483647" maxTime="120" minLength="0" minTime="0" mitIncidentData="false" mitOnlineData="false" mitProfileData="false" noBridge="false" noFerry="false" noHighway="false" noTollRoad="false" noTunnel="false" prefSerSt="false" speedFactor="100" traveltimeFactor="90" useElevation="false"/>
+                <departureTransport>
+                    <individualTransport meansCode="100" selected="1" speed="normal" value="15"/>
+                    <individualTransport meansCode="101" selected="0" speed="normal" value="60"/>
+                    <individualTransport meansCode="102" selected="0" speed="normal" value="60"/>
+                    <individualTransport meansCode="103" selected="0" speed="normal" value="10"/>
+                    <individualTransport meansCode="104" selected="0" speed="normal" value="10"/>
+                    <individualTransport meansCode="105" selected="0" speed="normal" value="10"/>
+                    <individualTransport meansCode="106" selected="0" speed="normal" value="120"/>
+                    <individualTransport meansCode="107" selected="0" speed="normal" value="60"/>
+                </departureTransport>
+                <arrivalTransport>
+                    <individualTransport meansCode="100" selected="1" speed="normal" value="15"/>
+                    <individualTransport meansCode="101" selected="0" speed="normal" value="60"/>
+                    <individualTransport meansCode="102" selected="0" speed="normal" value="60"/>
+                    <individualTransport meansCode="103" selected="0" speed="normal" value="10"/>
+                    <individualTransport meansCode="104" selected="0" speed="normal" value="10"/>
+                    <individualTransport meansCode="105" selected="0" speed="normal" value="10"/>
+                    <individualTransport meansCode="106" selected="0" speed="normal" value="120"/>
+                    <individualTransport meansCode="107" selected="0" speed="normal" value="60"/>
+                </arrivalTransport>
+            </itdItOptions>
+            <itdUsedOptions calcCO2="0" calcNumberOfTrips="3" dwellTime="00:00" itemType="STOPLINK" nextDepsPerLeg="0" realOnlyInfo="0" realtime="1"/>
+        </itdTripOptions>
+        <itdItinerary>
+            <itdRouteList>
+                <itdRoute active="1" alternative="0" cTime="20200724194755403" changes="0" delete="0" distance="0" idx="3" method="itp" optValue="0" print="0" publicDuration="00:11" routeIndex="3" searchMode="1" selected="1" vehicleTime="11">
+                    <itdMapItemList>
+                        <itdMapItem text="" type="RM">
+                            <itdImage src="FILELOAD?Filename=B_W_5F1B1ECB0.pdf"/>
+                        </itdMapItem>
+                    </itdMapItemList>
+                    <itdPartialRouteList>
+                        <itdPartialRoute active="1" bookingCode="Sbw-ww321827965843R1T0PR0" bufAft="-1" bufBef="-1" partialRouteType="normalPartialRoute" timeMinute="11" type="PT">
+                            <itdPoint area="1" areaGid="de:08317:12103:1" gid="de:08317:12103" locality="Lahr (Schwarzwald)" mapName="NBWT" name="Lahr Bahnhof/ZOB" nameWO="Bahnhof/ZOB" niveau="0" omc="8317065" place="Lahr (Schwarzwald)" placeID="4" plannedPlatformName="2" platform="2" platformName="2" pointType="Gleis" stopID="7412103" usage="departure" x="3413764.00547" y="803488.74225">
+                                <itdMapItemList>
+                                    <itdMapItem text="" type="RM">
+                                        <itdImage src="FILELOAD?Filename=B_W_5F1B1ECB1.pdf"/>
+                                    </itdMapItem>
+                                </itdMapItemList>
+                                <itdDateTime>
+                                    <itdDate day="24" month="7" weekday="6" year="2020"/>
+                                    <itdTime hour="19" minute="12" second="0"/>
+                                </itdDateTime>
+                                <itdDateTimeTarget>
+                                    <itdDate day="24" month="7" weekday="6" year="2020"/>
+                                    <itdTime hour="19" minute="12" second="0"/>
+                                </itdDateTimeTarget>
+                                <genAttrList>
+                                    <genAttrElem>
+                                        <name>AREA_NIVEAU_DIVA</name>
+                                        <value>0</value>
+                                    </genAttrElem>
+                                </genAttrList>
+                            </itdPoint>
+                            <itdPoint area="1" areaGid="de:08317:14506:1" gid="de:08317:14506" locality="Offenburg" mapName="NBWT" name="Offenburg Bahnhof" nameWO="Offenburg Bahnhof" niveau="0" omc="8317096" place="Offenburg" placeID="8" plannedPlatformName="6" platform="6" platformName="6" pointType="Gleis" stopID="7414506" usage="arrival" x="3422191.18233" y="788505.25937">
+                                <itdMapItemList>
+                                    <itdMapItem text="" type="RM">
+                                        <itdImage src="FILELOAD?Filename=B_W_5F1B1ECB2.pdf"/>
+                                    </itdMapItem>
+                                </itdMapItemList>
+                                <itdDateTime>
+                                    <itdDate day="24" month="7" weekday="6" year="2020"/>
+                                    <itdTime hour="19" minute="23" second="0"/>
+                                </itdDateTime>
+                                <itdDateTimeTarget>
+                                    <itdDate day="24" month="7" weekday="6" year="2020"/>
+                                    <itdTime hour="19" minute="23" second="0"/>
+                                </itdDateTimeTarget>
+                                <genAttrList>
+                                    <genAttrElem>
+                                        <name>AREA_NIVEAU_DIVA</name>
+                                        <value>0</value>
+                                    </genAttrElem>
+                                </genAttrList>
+                            </itdPoint>
+                            <itdMeansOfTransport ROP="0" STT="0" TTB="0" destID="7414506" destination="Offenburg Bahnhof" motType="0" mtSubcode="0" name="RE 17026 Regional-Express" network="ddb" productId="0" shortname="17026" spTr="" stateless="ddb:90703: :H:j20" symbol="" tC="17026" trainName="Regional-Express" trainNum="17026" trainType="RE" type="6">
+                                <motDivaParams direction="H" line="90703" network="ddb" project="j20" supplement=" "/>
+                            </itdMeansOfTransport>
+                            <itdInfoTextList>
+                                <infoTextListElem code="EH">Fahrzeuggebundene Einstiegshilfe vorhanden</infoTextListElem>
+                                <infoTextListElem code="G">Fahrradmitnahme begrenzt möglich</infoTextListElem>
+                            </itdInfoTextList>
+                        </itdPartialRoute>
+                    </itdPartialRouteList>
+                    <itdFare cFEPR="1">
+                        <itdSingleTicket currency="EUR" fareAdult="4.55" fareBikeAdult="" fareBikeChild="" fareChild="3.00" fromPR="0" idAdult="4" idChild="12" levelAdult="" levelChild="" net="tgo" toPR="0" unitName="Preisstufe" unitsAdult="4" unitsBikeAdult="" unitsBikeChild="" unitsChild="4">
+                            <itdGenericTicketList>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Punktekarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>4.12</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>20</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Wochenkarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>25.10</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>28</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Schülermonatskarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>50.20</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value>36</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Monatskarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>67.50</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>44</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Jahreskarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>675.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>52</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Jahreskarte (Abo)</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>59.05</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>60</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Job-Ticket (Jahresabo, pro Monat)</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>53.40</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>68</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Schüler-Abo</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>43.90</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value>103</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Senioren-Abo</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>53.40</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>108</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 1 Person</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>6.30</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>114</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 2 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>9.80</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>115</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 3 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>13.30</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>116</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 4 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>16.80</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>117</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 5 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>20.30</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>118</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Europass24</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>9.60</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>74</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>EuropassFamily24</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>14.50</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>75</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Gruppenkarte Schul-/Kindergartengruppe ab 10 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>2.35</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value>87</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                            </itdGenericTicketList>
+                        </itdSingleTicket>
+                        <itdCommuterFares currency="EUR" dayAdults="" dayChildren="" dayStudents="" fromPR="0" levelAdult="4" levelChild="4" monthAdult="" monthChild="" monthEducation="" net="tgo" toPR="0" weekAdult="" weekChild="" weekEducation="" yearAdults="" yearChildren="" yearStudents=""/>
+                        <itdTariffzones fromPR="0" net="tgo" neutralZone="" toPR="0"/>
+                    </itdFare>
+                    <itdInfoTextList/>
+                    <seqRoutes>
+                        <seqRoute publicDuration="00:11">1-1</seqRoute>
+                    </seqRoutes>
+                </itdRoute>
+                <itdRoute active="1" alternative="0" cTime="20200724194755309" changes="0" delete="0" distance="0" idx="1" method="itp" optValue="0" print="0" publicDuration="00:13" routeIndex="1" searchMode="0" selected="1" vehicleTime="13">
+                    <itdMapItemList>
+                        <itdMapItem text="" type="RM">
+                            <itdImage src="FILELOAD?Filename=B_W_5F1B1ECB3.pdf"/>
+                        </itdMapItem>
+                    </itdMapItemList>
+                    <itdPartialRouteList>
+                        <itdPartialRoute active="1" bookingCode="Sbw-ww321827965843R1T1PR0" bufAft="-1" bufBef="-1" partialRouteType="normalPartialRoute" timeMinute="13" type="PT">
+                            <itdPoint area="1" areaGid="de:08317:12103:1" gid="de:08317:12103" locality="Lahr (Schwarzwald)" mapName="NBWT" name="Lahr Bahnhof/ZOB" nameWO="Bahnhof/ZOB" niveau="0" omc="8317065" place="Lahr (Schwarzwald)" placeID="4" plannedPlatformName="2" platform="2" platformName="2" pointType="Gleis" stopID="7412103" usage="departure" x="3413764.00547" y="803488.74225">
+                                <itdMapItemList>
+                                    <itdMapItem text="" type="RM">
+                                        <itdImage src="FILELOAD?Filename=B_W_5F1B1ECB4.pdf"/>
+                                    </itdMapItem>
+                                </itdMapItemList>
+                                <itdDateTime>
+                                    <itdDate day="24" month="7" weekday="6" year="2020"/>
+                                    <itdTime hour="19" minute="41" second="0"/>
+                                </itdDateTime>
+                                <itdDateTimeTarget>
+                                    <itdDate day="24" month="7" weekday="6" year="2020"/>
+                                    <itdTime hour="19" minute="40" second="0"/>
+                                </itdDateTimeTarget>
+                                <genAttrList>
+                                    <genAttrElem>
+                                        <name>AREA_NIVEAU_DIVA</name>
+                                        <value>0</value>
+                                    </genAttrElem>
+                                </genAttrList>
+                            </itdPoint>
+                            <itdPoint area="1" areaGid="de:08317:14506:1" gid="de:08317:14506" locality="Offenburg" mapName="NBWT" name="Offenburg Bahnhof" nameWO="Offenburg Bahnhof" niveau="0" omc="8317096" place="Offenburg" placeID="8" plannedPlatformName="2" platform="2" platformName="2" pointType="Gleis" stopID="7414506" usage="arrival" x="3422191.18233" y="788505.25937">
+                                <itdMapItemList>
+                                    <itdMapItem text="" type="RM">
+                                        <itdImage src="FILELOAD?Filename=B_W_5F1B1ECB5.pdf"/>
+                                    </itdMapItem>
+                                </itdMapItemList>
+                                <itdDateTime>
+                                    <itdDate day="24" month="7" weekday="6" year="2020"/>
+                                    <itdTime hour="19" minute="54" second="0"/>
+                                </itdDateTime>
+                                <itdDateTimeTarget>
+                                    <itdDate day="24" month="7" weekday="6" year="2020"/>
+                                    <itdTime hour="19" minute="53" second="0"/>
+                                </itdDateTimeTarget>
+                                <genAttrList>
+                                    <genAttrElem>
+                                        <name>AREA_NIVEAU_DIVA</name>
+                                        <value>0</value>
+                                    </genAttrElem>
+                                </genAttrList>
+                            </itdPoint>
+                            <itdMeansOfTransport ROP="0" STT="0" TTB="0" destID="7414506" destination="Offenburg Bahnhof" motType="0" mtSubcode="0" name="RB 17128 Regionalbahn" network="ddb" productId="0" shortname="17128" spTr="" stateless="ddb:90702: :H:j20" symbol="" tC="17128" trainName="Regionalbahn" trainNum="17128" trainType="RB" type="6">
+                                <motDivaParams direction="H" line="90702" network="ddb" project="j20" supplement=" "/>
+                                <itdOperator>
+                                    <code>00</code>
+                                    <name>DB AG</name>
+                                    <publicCode>DB</publicCode>
+                                </itdOperator>
+                            </itdMeansOfTransport>
+                            <itdRBLControlled delayMinutes="1" delayMinutesArr="1"/>
+                            <itdInfoTextList>
+                                <infoTextListElem code="EH">Fahrzeuggebundene Einstiegshilfe vorhanden</infoTextListElem>
+                                <infoTextListElem code="FK">Fahrradmitnahme begrenzt möglich</infoTextListElem>
+                            </itdInfoTextList>
+                        </itdPartialRoute>
+                    </itdPartialRouteList>
+                    <itdFare cFEPR="1">
+                        <itdSingleTicket currency="EUR" fareAdult="4.55" fareBikeAdult="" fareBikeChild="" fareChild="3.00" fromPR="0" idAdult="4" idChild="12" levelAdult="" levelChild="" net="tgo" toPR="0" unitName="Preisstufe" unitsAdult="4" unitsBikeAdult="" unitsBikeChild="" unitsChild="4">
+                            <itdGenericTicketList>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Punktekarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>4.12</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>20</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Wochenkarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>25.10</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>28</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Schülermonatskarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>50.20</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value>36</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Monatskarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>67.50</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>44</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Jahreskarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>675.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>52</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Jahreskarte (Abo)</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>59.05</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>60</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Job-Ticket (Jahresabo, pro Monat)</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>53.40</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>68</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Schüler-Abo</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>43.90</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value>103</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Senioren-Abo</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>53.40</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>108</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 1 Person</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>6.30</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>114</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 2 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>9.80</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>115</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 3 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>13.30</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>116</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 4 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>16.80</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>117</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 5 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>20.30</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>118</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Europass24</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>9.60</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>74</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>EuropassFamily24</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>14.50</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>75</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Gruppenkarte Schul-/Kindergartengruppe ab 10 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>2.35</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value>87</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                            </itdGenericTicketList>
+                        </itdSingleTicket>
+                        <itdCommuterFares currency="EUR" dayAdults="" dayChildren="" dayStudents="" fromPR="0" levelAdult="4" levelChild="4" monthAdult="" monthChild="" monthEducation="" net="tgo" toPR="0" weekAdult="" weekChild="" weekEducation="" yearAdults="" yearChildren="" yearStudents=""/>
+                        <itdTariffzones fromPR="0" net="tgo" neutralZone="" toPR="0"/>
+                    </itdFare>
+                    <itdInfoTextList/>
+                    <seqRoutes>
+                        <seqRoute publicDuration="00:13">1-1</seqRoute>
+                    </seqRoutes>
+                </itdRoute>
+                <itdRoute active="1" alternative="0" cTime="20200724194755356" changes="0" delete="0" distance="0" idx="2" method="itp" optValue="0" print="0" publicDuration="00:11" routeIndex="2" searchMode="0" selected="1" vehicleTime="11">
+                    <itdMapItemList>
+                        <itdMapItem text="" type="RM">
+                            <itdImage src="FILELOAD?Filename=B_W_5F1B1ECB6.pdf"/>
+                        </itdMapItem>
+                    </itdMapItemList>
+                    <itdPartialRouteList>
+                        <itdPartialRoute active="1" bookingCode="Sbw-ww321827965843R1T2PR0" bufAft="-1" bufBef="-1" partialRouteType="normalPartialRoute" timeMinute="11" type="PT">
+                            <itdPoint area="1" areaGid="de:08317:12103:1" gid="de:08317:12103" locality="Lahr (Schwarzwald)" mapName="NBWT" name="Lahr Bahnhof/ZOB" nameWO="Bahnhof/ZOB" niveau="0" omc="8317065" place="Lahr (Schwarzwald)" placeID="4" plannedPlatformName="2" platform="2" platformName="2" pointType="Gleis" stopID="7412103" usage="departure" x="3413764.00547" y="803488.74225">
+                                <itdMapItemList>
+                                    <itdMapItem text="" type="RM">
+                                        <itdImage src="FILELOAD?Filename=B_W_5F1B1ECB7.pdf"/>
+                                    </itdMapItem>
+                                </itdMapItemList>
+                                <itdDateTime>
+                                    <itdDate day="24" month="7" weekday="6" year="2020"/>
+                                    <itdTime hour="20" minute="3" second="0"/>
+                                </itdDateTime>
+                                <itdDateTimeTarget>
+                                    <itdDate day="24" month="7" weekday="6" year="2020"/>
+                                    <itdTime hour="20" minute="3" second="0"/>
+                                </itdDateTimeTarget>
+                                <genAttrList>
+                                    <genAttrElem>
+                                        <name>AREA_NIVEAU_DIVA</name>
+                                        <value>0</value>
+                                    </genAttrElem>
+                                </genAttrList>
+                            </itdPoint>
+                            <itdPoint area="1" areaGid="de:08317:14506:1" gid="de:08317:14506" locality="Offenburg" mapName="NBWT" name="Offenburg Bahnhof" nameWO="Offenburg Bahnhof" niveau="0" omc="8317096" place="Offenburg" placeID="8" plannedPlatformName="4" platform="4" platformName="4" pointType="Gleis" stopID="7414506" usage="arrival" x="3422191.18233" y="788505.25937">
+                                <itdMapItemList>
+                                    <itdMapItem text="" type="RM">
+                                        <itdImage src="FILELOAD?Filename=B_W_5F1B1ECB8.pdf"/>
+                                    </itdMapItem>
+                                </itdMapItemList>
+                                <itdDateTime>
+                                    <itdDate day="24" month="7" weekday="6" year="2020"/>
+                                    <itdTime hour="20" minute="14" second="0"/>
+                                </itdDateTime>
+                                <itdDateTimeTarget>
+                                    <itdDate day="24" month="7" weekday="6" year="2020"/>
+                                    <itdTime hour="20" minute="14" second="0"/>
+                                </itdDateTimeTarget>
+                                <genAttrList>
+                                    <genAttrElem>
+                                        <name>AREA_NIVEAU_DIVA</name>
+                                        <value>0</value>
+                                    </genAttrElem>
+                                </genAttrList>
+                            </itdPoint>
+                            <itdMeansOfTransport ROP="0" STT="0" TTB="0" destID="7414506" destination="Offenburg Bahnhof" motType="0" mtSubcode="0" name="RE 5336 Regional-Express" network="ddb" productId="0" shortname="5336" spTr="" stateless="ddb:90703: :H:j20" symbol="" tC="5336" trainName="Regional-Express" trainNum="5336" trainType="RE" type="6">
+                                <motDivaParams direction="H" line="90703" network="ddb" project="j20" supplement=" "/>
+                            </itdMeansOfTransport>
+                            <itdRBLControlled delayMinutes="0" delayMinutesArr="0"/>
+                            <itdInfoTextList>
+                                <infoTextListElem code="FK">Fahrradmitnahme begrenzt möglich</infoTextListElem>
+                                <infoTextListElem code="EH">Fahrzeuggebundene Einstiegshilfe vorhanden</infoTextListElem>
+                            </itdInfoTextList>
+                        </itdPartialRoute>
+                    </itdPartialRouteList>
+                    <itdFare cFEPR="1">
+                        <itdSingleTicket currency="EUR" fareAdult="4.55" fareBikeAdult="" fareBikeChild="" fareChild="3.00" fromPR="0" idAdult="4" idChild="12" levelAdult="" levelChild="" net="tgo" toPR="0" unitName="Preisstufe" unitsAdult="4" unitsBikeAdult="" unitsBikeChild="" unitsChild="4">
+                            <itdGenericTicketList>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Punktekarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>4.12</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>20</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Wochenkarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>25.10</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>28</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Schülermonatskarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>50.20</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value>36</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Monatskarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>67.50</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>44</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Jahreskarte</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>675.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>52</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Jahreskarte (Abo)</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>59.05</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>60</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Job-Ticket (Jahresabo, pro Monat)</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>53.40</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>68</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Schüler-Abo</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>43.90</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value>103</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Senioren-Abo</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>53.40</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>108</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 1 Person</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>6.30</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>114</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 2 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>9.80</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>115</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 3 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>13.30</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>116</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 4 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>16.80</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>117</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Ortenaukarte Mini 5 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>20.30</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>118</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Europass24</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>9.60</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>74</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>EuropassFamily24</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>14.50</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value>75</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                                <itdGenericTicketGroup>
+                                    <itdGenericTicket>
+                                        <ticket>TICKETTYPE</ticket>
+                                        <value>Gruppenkarte Schul-/Kindergartengruppe ab 10 Personen</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CATEGORY</ticket>
+                                        <value>4</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_ADULT</ticket>
+                                        <value>0.00</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>FARE_CHILD</ticket>
+                                        <value>2.35</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>CURRENCY_CODE</ticket>
+                                        <value>EUR</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_ADULT</ticket>
+                                        <value/>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TICKET_ID_CHILD</ticket>
+                                        <value>87</value>
+                                    </itdGenericTicket>
+                                    <itdGenericTicket>
+                                        <ticket>TARIFF_AUTHORITY</ticket>
+                                        <value>tgo</value>
+                                    </itdGenericTicket>
+                                </itdGenericTicketGroup>
+                            </itdGenericTicketList>
+                        </itdSingleTicket>
+                        <itdCommuterFares currency="EUR" dayAdults="" dayChildren="" dayStudents="" fromPR="0" levelAdult="4" levelChild="4" monthAdult="" monthChild="" monthEducation="" net="tgo" toPR="0" weekAdult="" weekChild="" weekEducation="" yearAdults="" yearChildren="" yearStudents=""/>
+                        <itdTariffzones fromPR="0" net="tgo" neutralZone="" toPR="0"/>
+                    </itdFare>
+                    <itdInfoTextList/>
+                    <seqRoutes>
+                        <seqRoute publicDuration="00:11">1-1</seqRoute>
+                    </seqRoutes>
+                </itdRoute>
+            </itdRouteList>
+            <itdLegTTs/>
+        </itdItinerary>
+    </itdTripRequest>
+</itdRequest>
