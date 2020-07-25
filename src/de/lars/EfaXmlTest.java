@@ -22,6 +22,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.Scanner;
 
 public class EfaXmlTest {
 
@@ -47,11 +48,29 @@ public class EfaXmlTest {
     }
 
     static void test() {
+        Scanner scanner = new Scanner(System.in);
         String rootUrl = "http://www.efa-bw.de/nvbw/";
+
+        // input from console
+        System.out.print("Start Station: ");
+        String start = scanner.nextLine();
+        System.out.print("End Station: ");
+        String end = scanner.nextLine();
+        System.out.print("Tag: ");
+        int day = scanner.nextInt();
+        System.out.print("Monat: ");
+        int month = scanner.nextInt();
+        System.out.print("Jahr: ");
+        int year = scanner.nextInt();
+        System.out.print("Stunde: ");
+        int hour = scanner.nextInt();
+        System.out.print("Minute: ");
+        int minute = scanner.nextInt();
+
         QueryUrl qurl = new QueryUrl.UrlBuilder(rootUrl)
-                .startStation("Lahr Bahnhof/ZOB")
-                .destinationStation("Offenburg Bahnhof")
-                .time(24, 7, 2020, 19, 25)
+                .startStation(start)
+                .destinationStation(end)
+                .time(day, month, year, hour, minute)
                 .build();
 
         String urlString = qurl.buildTripRequest();
@@ -97,31 +116,65 @@ public class EfaXmlTest {
             Node routeNode = routes.item(i);                        // <itdRouteList>
                                                                     //      <itdRoute>...
             if(routeNode.getNodeType() == Node.ELEMENT_NODE) {
-                Element re = (Element) routeNode;
-
-                // train type
-                Element transp = (Element) re.getElementsByTagName("itdMeansOfTransport").item(0);
+                Element re = (Element) routeNode; // itdRoute element
 
                 System.out.println("Umsteigen: " + re.getAttribute("changes") + "; " +
-                        "Dauer: " + re.getAttribute("publicDuration") + " [" +
-                        transp.getAttribute("name") + "]");
+                        "Dauer: " + re.getAttribute("publicDuration"));
 
-                // itdPoint origin + destination == stations
-                NodeList itdPoints = re.getElementsByTagName("itdPoint");
-                for(int p = 0; p < itdPoints.getLength(); p++) {
-                    if(itdPoints.item(p).getNodeType() == Node.ELEMENT_NODE) {
-                        // Station
-                        Element point = (Element) itdPoints.item(p);        // <itdPoint>
-                        System.out.println("> " + point.getAttribute("name") + " " +
-                                point.getAttribute("pointType") + " " + point.getAttribute("plannedPlatformName"));
-                        // time
-                        Node targetTimeN = point.getElementsByTagName("itdTime").item(0);
-                        if(targetTimeN.getNodeType() == Node.ELEMENT_NODE) {
-                            Element targetTime = (Element) targetTimeN;
-                            System.out.println("\t" + targetTime.getAttribute("hour") + ":" + targetTime.getAttribute("minute"));
+                NodeList routeList = re.getElementsByTagName("itdPartialRoute");
+                for(int pr = 0; pr < routeList.getLength(); pr++) {
+                    if(routeList.item(pr).getNodeType() == Node.ELEMENT_NODE) {
+
+                        // <itdPartialRoute>
+                        Element partialRoute = (Element) routeList.item(pr);
+
+                        // transport type
+                        Element transp = (Element) partialRoute.getElementsByTagName("itdMeansOfTransport").item(0);
+                        // delay time
+                        Element itdRBLControlled = (Element) partialRoute.getElementsByTagName("itdRBLControlled").item(0);
+                        // foot path info
+                        Element footPathInfo = (Element) partialRoute.getElementsByTagName("itdFootPathInfo").item(0);
+
+                        // print route overview
+                        String delay = "";
+                        if(itdRBLControlled != null)
+                            delay = itdRBLControlled.getAttribute("delayMinutes") + " Min. Verspätung";
+                        System.out.println("  "+ transp.getAttribute("name") + " Richtung " + transp.getAttribute("destination") +
+                                " (Dauer: " + partialRoute.getAttribute("timeMinute") + " Min.) " + delay);
+
+                        // itdPoint origin + destination > STATIONS
+                        NodeList itdPoints = partialRoute.getElementsByTagName("itdPoint");
+                        for(int p = 0; p < itdPoints.getLength(); p++) {
+                            if(itdPoints.item(p).getNodeType() == Node.ELEMENT_NODE) {
+
+                                // Station <itdPoint>
+                                Element point = (Element) itdPoints.item(p);
+                                // time
+                                String time = "";
+                                Node targetTimeN = point.getElementsByTagName("itdTime").item(0);
+                                if(targetTimeN.getNodeType() == Node.ELEMENT_NODE) {
+                                    Element targetTime = (Element) targetTimeN;
+                                    time = targetTime.getAttribute("hour") + ":" + targetTime.getAttribute("minute");
+                                }
+                                // print
+                                System.out.println("    > " + time + "\t" + point.getAttribute("name") + " " +
+                                        point.getAttribute("pointType") + " " + point.getAttribute("plannedPlatformName"));
+
+                            }
+                        }
+
+                        // print foot path if exists
+                        if(footPathInfo != null) {
+                            System.out.println("  ! Fussweg: " + footPathInfo.getAttribute("duration") + " Min.");
+                        }
+
+                        if(pr + 1 < routeList.getLength()) {
+                            System.out.println("  -----");
                         }
                     }
+
                 }
+
             }
         }
 
