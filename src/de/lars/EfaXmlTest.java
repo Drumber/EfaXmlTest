@@ -108,6 +108,12 @@ public class EfaXmlTest {
 
     static void printRoutes(Document doc) {
         doc.getDocumentElement().normalize();
+
+        if(!checkValidity(doc)) {
+            System.err.println("Konnte Fahrten nicht laden. Bitte versuche es erneut.");
+            return;
+        }
+
         // get route list
         NodeList routes = doc.getElementsByTagName("itdRoute");
 
@@ -178,6 +184,51 @@ public class EfaXmlTest {
             }
         }
 
+    }
+
+    static boolean checkValidity(Document doc) {
+        boolean identified = false;
+        // get all <itdOdv> | ODV = Origin-Destination-Via
+        NodeList odvList = doc.getElementsByTagName("itdOdv");
+        for(int i = 0; i < odvList.getLength(); i++) {
+            if(odvList.item(i).getNodeType() == Node.ELEMENT_NODE) {
+                Element odv = (Element) odvList.item(i);
+                String usage = odv.getAttribute("usage");
+                // check if origin and destination state is 'identified'
+                if(usage != null && (usage.equals("origin") || usage.equals("destination"))) {
+
+                    Element odvName = (Element) odv.getElementsByTagName("itdOdvName").item(0);
+                    if(odvName != null) {
+                        String odvState = odvName.getAttribute("state");
+                        if(odvState != null && odvState.equals("identified")) {
+                            identified = true;
+                            continue;
+                        }
+                        System.out.println("TTESSST " + identified);
+                        identified = false;
+
+                        // station is not identified, print proposed locations
+                        Element odvInput = (Element) odvName.getElementsByTagName("odvNameInput").item(0);
+                        if(odvInput != null)
+                            System.err.println("Kein Treffer für \"" + odvInput.getTextContent() + "\".");
+
+                        NodeList odvElementList = odvName.getElementsByTagName("odvNameElem");
+                        if(odvElementList.getLength() > 0) {
+                            String[] proposedLocs = new String[odvElementList.getLength()];
+                            for(int el = 0; el < odvElementList.getLength(); el++) {
+                                if(odvElementList.item(el).getNodeType() == Node.ELEMENT_NODE) {
+                                    Element element = (Element) odvElementList.item(el);
+                                    proposedLocs[el] = element.getTextContent();
+                                }
+                            }
+                            System.err.println("Vorschläge: " + String.join("\n", proposedLocs));
+                        }
+                    }
+
+                }
+            }
+        }
+        return identified;
     }
 
 }
