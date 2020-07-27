@@ -1,5 +1,7 @@
 package de.lars;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -18,10 +20,17 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 public class EfaXmlTest {
@@ -81,7 +90,33 @@ public class EfaXmlTest {
             System.out.println("Response...");
             printXML(doc);
             System.out.println("\n\nVersuche Zugdaten aus XML zu parsen...");
-            printRoutes(doc);
+
+            TripParameterHolder[][] tph = printRoutes(doc);
+
+            if(tph != null && tph.length > 0) {
+                System.out.print("Fahrtinformation von Index: ");
+                int tripIndex = scanner.nextInt();
+                if(tripIndex >= tph.length) {
+                    System.err.println("Invalid index.");
+                    return;
+                }
+                TripParameterHolder[] paramHolder = tph[tripIndex];
+
+                for(int i = 0; i < paramHolder.length; i++) {
+                    String stopTimesUrl = qurl.buildTripStopTimesRequest(paramHolder[i]);
+
+                    System.out.println("Versuche Fahrtinfo JSON anzufordern: " + stopTimesUrl);
+                    String json = parseJSON(stopTimesUrl);
+                    System.out.println(json);
+
+                    System.out.println("Versuche Fahrtverlauf aus JSON zu parsen...");
+                    printJSONStopTimes(json);
+
+                    if(i+1 < paramHolder.length)
+                        System.out.println("\n----------\n");
+                }
+            }
+
         } catch (IOException | ParserConfigurationException | SAXException e) {
             e.printStackTrace();
         }
@@ -96,6 +131,19 @@ public class EfaXmlTest {
         return builder.parse(conn.getInputStream());
     }
 
+    static String parseJSON(String urlString) throws IOException {
+        URL url = new URL(urlString);
+        URLConnection conn = url.openConnection();
+
+        BufferedReader bf = new BufferedReader(new InputStreamReader(conn.getInputStream(), StandardCharsets.UTF_8));
+        StringBuilder sb = new StringBuilder();
+        int cp;
+        while ((cp = bf.read()) != -1) {
+            sb.append((char) cp);
+        }
+        return sb.toString();
+    }
+
     static void printXML(Document doc) {
         try {
             TransformerFactory transformerFactory= TransformerFactory.newInstance();
@@ -106,16 +154,18 @@ public class EfaXmlTest {
         }
     }
 
-    static void printRoutes(Document doc) {
+    static TripParameterHolder[][] printRoutes(Document doc) {
         doc.getDocumentElement().normalize();
 
         if(!checkValidity(doc)) {
             System.err.println("Konnte Fahrten nicht laden. Bitte versuche es erneut.");
-            return;
+            return null;
         }
 
         // get route list
         NodeList routes = doc.getElementsByTagName("itdRoute");
+        // save parameter of trips
+        TripParameterHolder[][] tph = new TripParameterHolder[routes.getLength()][];
 
         for(int i = 0; i < routes.getLength(); i++) {
             System.out.println("====================");
@@ -124,7 +174,7 @@ public class EfaXmlTest {
             if(routeNode.getNodeType() == Node.ELEMENT_NODE) {
                 Element re = (Element) routeNode; // itdRoute element
 
-                System.out.println("Umsteigen: " + re.getAttribute("changes") + "; " +
+                System.out.println("[" + i + "] Umsteigen: " + re.getAttribute("changes") + "; " +
                         "Dauer: " + re.getAttribute("publicDuration"));
 
                 NodeList routeList = re.getElementsByTagName("itdPartialRoute");
@@ -141,6 +191,12 @@ public class EfaXmlTest {
                         // foot path info
                         Element footPathInfo = (Element) partialRoute.getElementsByTagName("itdFootPathInfo").item(0);
 
+                        // save trip line params
+                        tph[i] = new TripParameterHolder[routeList.getLength()];
+                        tph[i][pr] = new TripParameterHolder();
+                        tph[i][pr].line = transp.getAttribute("stateless");
+                        tph[i][pr].tripCode = pint(transp.getAttribute("tC"));
+
                         // print route overview
                         String delay = "";
                         if(itdRBLControlled != null)
@@ -155,12 +211,30 @@ public class EfaXmlTest {
 
                                 // Station <itdPoint>
                                 Element point = (Element) itdPoints.item(p);
+
                                 // time
                                 String time = "";
-                                Node targetTimeN = point.getElementsByTagName("itdTime").item(0);
-                                if(targetTimeN.getNodeType() == Node.ELEMENT_NODE) {
-                                    Element targetTime = (Element) targetTimeN;
-                                    time = targetTime.getAttribute("hour") + ":" + targetTime.getAttribute("minute");
+                                Node targetDateTimeN = point.getElementsByTagName("itdDateTimeTarget").item(0);
+                                if(targetDateTimeN.getNodeType() == Node.ELEMENT_NODE) {
+                                    Element targetTime = (Element) targetDateTimeN;
+                                    Element timeEl = (Element) targetTime.getElementsByTagName("itdTime").item(0);
+                                    Element dateEl = (Element) targetTime.getElementsByTagName("itdDate").item(0);
+
+                                    time = timeEl.getAttribute("hour") + ":" + timeEl.getAttribute("minute");
+
+                                    // save line params
+                                    if(p == 0) {
+                                        tph[i][pr].stopID = pint(point.getAttribute("stopID"));
+                                        tph[i][pr].hour = pint(timeEl.getAttribute("hour"));
+                                        tph[i][pr].minute = pint(timeEl.getAttribute("minute"));
+                                        tph[i][pr].day = pint(dateEl.getAttribute("day"));
+                                        tph[i][pr].month = pint(dateEl.getAttribute("month"));
+                                        tph[i][pr].year = pint(dateEl.getAttribute("year"));
+                                    }
+                                    if(p == itdPoints.getLength()-1) {
+                                        // save last stop ID
+                                        tph[i][pr].lastStopID = pint(point.getAttribute("stopID"));
+                                    }
                                 }
                                 // print
                                 System.out.println("    > " + time + "\t" + point.getAttribute("name") + " " +
@@ -183,7 +257,7 @@ public class EfaXmlTest {
 
             }
         }
-
+        return tph;
     }
 
     static boolean checkValidity(Document doc) {
@@ -229,6 +303,57 @@ public class EfaXmlTest {
             }
         }
         return identified;
+    }
+
+    static void printJSONStopTimes(String jsonString) {
+        JSONObject jsonRoot = new JSONObject(jsonString);
+        JSONArray arrParameters = jsonRoot.getJSONArray("parameters");
+
+        int lastStopID = -1;
+        int firstStopID = pint(jsonRoot.getJSONObject("vehicleCallAtStop").getString("stopID"));
+
+        for(int i = 0; i < arrParameters.length(); i++) {
+            JSONObject objParam = arrParameters.getJSONObject(i);
+            if(objParam.has("name") && objParam.getString("name").equals("lastStopID"))
+                lastStopID = pint(objParam.getString("value"));
+        }
+
+        JSONArray arrStopSeq = jsonRoot.getJSONArray("stopSeq");
+        boolean targetStops = false;
+        for(int i = 0; i < arrStopSeq.length(); i++) {
+
+            JSONObject objStop = arrStopSeq.getJSONObject(i);
+            JSONObject objRef = objStop.getJSONObject("ref");
+            int id = pint(objRef.getString("id"));
+            if(id == firstStopID)
+                targetStops = true;
+
+            String stopName = objStop.getString("name");
+            String time = ">";
+            if(!targetStops)
+                time = " ";
+
+            SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd HH:mm");
+            try {
+                String timeStr = objRef.has("arrDateTime") ? objRef.getString("arrDateTime") : objRef.getString("depDateTime");
+                Date date = sdf.parse(timeStr);
+                sdf = new SimpleDateFormat("HH:mm");
+                time += sdf.format(date);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+
+            System.out.println(time + " " + stopName);
+
+            if(id == lastStopID)
+                targetStops = false;
+        }
+
+    }
+
+    /** parse int */
+    private static int pint(String s) {
+        return Integer.parseInt(s);
     }
 
 }

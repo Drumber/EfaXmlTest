@@ -1,5 +1,9 @@
 package de.lars;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
 public class QueryUrl {
 
     String rootUrl;
@@ -17,7 +21,7 @@ public class QueryUrl {
 
     public String buildTripRequest() {
         // docs: https://www.opendata-oepnv.de/fileadmin/Dokumentationen_etc/VRR/Schnittstellendokumentation_EFA-XML_1_.pdf
-        return rootUrl += "XML_TRIP_REQUEST2?sessionID=0&requestID=0&language=de&useRealtime=1" +
+        return rootUrl + "XML_TRIP_REQUEST2?sessionID=0&requestID=0&language=de&useRealtime=1" +
                 "&anySigWhenPerfectNoOtherMatches=1&anyMaxSizeHitList=20&prMinQu=1" +
                 "&itOptionsActive=1&ptOptionsActive=1&coordListOutputFormat=STRING&type_origin=any" +
                 "&nameInfo_origin=invalid&placeInfo_origin=invalid&typeInfo_origin=invalid" +
@@ -48,6 +52,21 @@ public class QueryUrl {
                 "&trITArrMOTvalue100=15&trITArrMOTvalue101=60&trITArrMOTvalue104=10";
 
     }
+
+    public String buildTripStopTimesRequest(TripParameterHolder tph) {
+        // ?tripCode=8&stopID=7413301&time=1437&date=20200727&line=tgo%3A11104%3AE%3AR%3Aj20&tStOTType=all&outputFormat=JSON&useRealtime=1
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
+        System.out.println(tph.month);
+        String dateStr = sdf.format(new GregorianCalendar(tph.year, tph.month-1, tph.day).getTime());
+
+        return rootUrl + "XML_TRIPSTOPTIMES_REQUEST?" +
+                format("tripCode=%d&stopID=%d&itdLPxx_lastStopID=%d", tph.tripCode, tph.stopID, tph.lastStopID) +
+                format("&timeHour=%d&timeMinute=%d", tph.hour, tph.minute) +
+                format("&date=%s", dateStr) +
+                format("&line=%s", tph.getLineEncoded()) +
+                "&tStOTType=all&outputFormat=JSON&useRealtime=1";
+    }
+
 
     /**
      * wrapper method for {@link java.lang.String#format}
